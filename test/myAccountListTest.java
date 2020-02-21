@@ -67,14 +67,14 @@ public class myAccountListTest extends globalVar{
         driver.close();
     }
 
-    /* @func: clickingBobAdams
+    /* @func: clickingAndySamberg 
       @purpose: Verify if clicking on "Andy, Samberg was successful.
       @Notes: If clicking on name was successful, then the
               page description should be the full name of the person
               including the title. Ex: "Dr. Bob Adams"
    */
     @Test (priority = 3)
-    public void clickingBobAdams(){
+    public void clickingAndySamberg(){
         commonFuncs.login("[valid username]",  "[valid password]");
         myAccFunc.clickMyAcc();
         myAccFunc.clickNameInMyAccount("Andy, Samberg");
