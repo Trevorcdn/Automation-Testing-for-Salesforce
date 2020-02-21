@@ -43,8 +43,8 @@ public class checkBoxDetailPriorityTest extends globalVar {
     */
     @Test (priority = 1)
     public void choleLabrinCheckTest(){
-        String chloecap = "//*[@id='chkd_a00U0000006DoZJIA0']";
-        String labrinone = "//*[@id='chkd_a00U0000006DoZNIA0']";
+        String chloe = "//*[@id='chkd_a00U0000006DoZJIA0']";
+        String labrin = "//*[@id='chkd_a00U0000006DoZNIA0']";
 
         navigateToMassAddPromoCall();
         WebElement choleCheck = driver.findElement(By.xpath(chloe));
